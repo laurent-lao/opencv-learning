@@ -167,8 +167,8 @@ args = parser.parse_args()
 default_simple = [127, 255]
 default_adaptive = [255, 11, 2]
 # defining simple thresholding
-threshold_number = default_simple[0]            # number    : threshold of pixel classification
-threshold_max = default_simple[1]               # max       : pixel is assigned max if over threshold
+threshold_number = default_simple[0]            # number        : threshold of pixel classification
+threshold_max = default_simple[1]               # max           : pixel is assigned max if over threshold
 # defining adaptive thresholding variables
 adaptive_thresh_max = default_adaptive[0]       # max           : pixel value is assigned max if over mean
 adaptive_block_size = default_adaptive[1]       # block size    : decides the size of the partition

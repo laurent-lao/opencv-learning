@@ -104,10 +104,10 @@ def set_default_value():
 
     # resetting into default values
     global corner_harris_block_size, corner_harris_k_size, corner_harris_k, dst_percentage, dst_colour, colour_label
-    corner_harris_block_size = default_value[0]  # blockSize : size of neighbourhood for C.Detect (default = 2)
-    corner_harris_k_size = default_value[1]  # k size    : Aperture parameter for Sobel derivative (default = 3)
-    corner_harris_k = default_value[2]  # k         : Harris detector free parameter (default = 0.04)
-    dst_percentage = default_value[3]  # threshold : Percentage for the sensitivity of corner (default = 0.01)
+    corner_harris_block_size = default_value[0]     # blockSize : size of neighbourhood for C.Detect (default = 2)
+    corner_harris_k_size = default_value[1]         # k size    : Aperture parameter for Sobel derivative (default = 3)
+    corner_harris_k = default_value[2]              # k         : Harris detector free parameter (default = 0.04)
+    dst_percentage = default_value[3]               # threshold : Percentage for the sensitivity of corner (default = 0.01)
     dst_colour = colour_red
     colour_label = "red"
 
